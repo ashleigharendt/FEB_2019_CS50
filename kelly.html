@@ -2,11 +2,56 @@
 <html>
 <head>
 	<title>Kelly's Webpage</title>
+	<style type="text/css">
+		h1,h2 { text-align: center; 
+			font-family:Arial,sans-serif;
+			font-style:bold;
+			color: #e53bdf;
+		}
+		.center {
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			width:15%;
+
+			border-style:dashed;
+			border-width:2px;
+			border-color:lightgrey;
+		}
+		ul {text-align:center;
+			list-style-type: none;
+			font-size:20px;
+		}
+		.cat_img {
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			width:20%;
+		}
+		
+	</style>
 </head>
 <body>
-	<h1>What's up my name is kelly</h1>
+	<h1>What's up my name is Kelly</h1>
+	<img src="kelly.jpg" class="center">
 	<h2>I love cats!! like so much</h2>
+	<ul>
+		<li>
+			<a href=#cat1>Click to see my first fav cat!</a>
+		</li>
+		<li><a href=#cat2>Click to see my second fav cat!</a></li>
+		<li><a href=#cat3>Click to see my third fav cat!</a></li>
+	</ul>
 
-	<a href="cat_images.html">Click to see my fav cats!</a>
+	<h2 id="cat1">Cutie Cat no 1</h2>
+	<p> <img class="cat_img"  src="cat_1.jpg"> </p>
+
+	<h2 id="cat2">Cutie Cat no 2</h2>
+	<p> <img class="cat_img" src="cat_2.jpg"> </p>
+
+	<h2 id="cat3">Cutie Cat no 3</h2>
+	<p> <img class="cat_img"  src="cat_3.jpg"> </p>
+
+
 </body>
 </html>
