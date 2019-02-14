@@ -4,6 +4,33 @@
 	<title>My webpage</title>
 	<style>
 		ol li {color:red;}
+		ol > li {color:blue;}
+		input[type=text] {
+			background-color:pink;
+		}
+		input[type=number] {
+			background-color:lightblue;
+		}
+		button {
+			width: 200px;
+			height: 50px;
+			font-size: 24px;
+			background-color: green;
+		}
+		button:hover {
+			background-color:orange;
+		}
+
+		a::before {
+			content:"\21d2 Click here: ";
+			font-weight: bold;
+		}
+
+		p::selection {
+			background-color:green;
+			color:red;
+		}
+
 	</style>
 
 </head>
@@ -16,10 +43,28 @@
 				<li>sublist 1</li>
 				<li>sublist 2</li>
 			</ul>
+		<li>List item 3</li>
 	</ol>
 
 	<ul>
 		<li>second list</li>
 	</ul>
+
+	<form>
+		<input name="name" type="text" placeholder = "First Name">
+		<input name="name" type="text" placeholder = "Last Name">
+		<input name="name" type="number" placeholder = "Age">
+	</form>
+
+	<button>Click Me!</button>
+
+	<ul>
+		<li><a href="#">one link</a></li>
+		<li><a href="#">another link</a></li>
+
+	<p>
+		Hey
+	</p>
+
 </body>
 </html>
